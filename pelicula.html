@@ -76,19 +76,11 @@
           margin: 10px;
         }
       }
-      @media (min-width: 1025px) {
-        nav {
-          justify-content: space-around;
-        }
-        .letra,
-        .img {
-          max-width: 50%;
-        }
-      }
+
       @media (max-width: 600px) {
         nav {
           flex-direction: row;
-          flex-wrap: nowrap;
+          flex-wrap: wrap;
           overflow-x: auto; /* Allows horizontal scrolling for nav items */
         }
         a.nav-principal {
@@ -106,8 +98,9 @@
           font-size: medium;
         }
         .img {
-          width: 200px;
+          width: 90px;
           margin: 10px;
+          height: 150px;
         }
       }
     </style>
